@@ -1,0 +1,5 @@
+Basically we need to do some configurations before connecting users to the DC.
+Some of them are :
+  * Configure network settings
+  * Create new OUs (Organizational Units)
+  * Add roles and features requested by the organization
