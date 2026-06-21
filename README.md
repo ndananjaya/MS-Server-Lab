@@ -22,7 +22,7 @@ This repository contains my hands-on Microsoft Server practical exercises.
 - DNS
 - Group Policy
 - File Services
-=======
+
 ## 🏢 Scenario: “TechWave Solutions Pvt Ltd” – AD DS Lab Project
 
 ## 🧾 Company Overview
@@ -48,7 +48,7 @@ TechWave Solutions is a mid-sized IT company with multiple departments and a gro
 ---
 
 # 🏢 Organizational Units (OU Structure)
-
+```
 techwave.local
 │
 ├── HeadOffice
@@ -67,8 +67,8 @@ techwave.local
 ├── ServiceAccounts
 │
 └── Disabled_Accounts
-```
 
+```
 ---
 
 # 👨‍💼 Users (Create sample accounts)
@@ -129,8 +129,9 @@ techwave.local
 
 On a server (DC1 or a separate File Server), :
 
+
 ```
-D:\CompanyShares
+D:\CompanyShares 
 │
 ├── IT_Share
 ├── HR_Share
@@ -237,11 +238,11 @@ Display message:
 
 Automatically map drives:
 
-* IT → `\\DC1\IT_Share`
-* HR → `\\DC1\HR_Share`
-* Finance → `\\DC1\Finance_Share`
-* Sales → `\\DC1\Sales_Share`
-* All users → `\\DC1\Public_Share`
+* IT → \\DC1\IT_Share
+* HR → \\DC1\HR_Share
+* Finance → \\DC1\Finance_Share
+* Sales → \\DC1\Sales_Share
+* All users → \\DC1\Public_Share
 
 ---
 
