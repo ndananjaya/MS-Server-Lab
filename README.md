@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MS Server Lab Portfolio
 
 This repository contains my hands-on Microsoft Server practical exercises.
@@ -247,7 +246,5 @@ Automatically map drives:
 ---
 
 
-
+Last Updated at 21/06/2026
 ---
-
->>>>>>> 8a2d03023985826dd295231fde15f742d6fc9608
